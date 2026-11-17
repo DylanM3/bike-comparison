@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.images {
+    height: 60vh;
+    margin: 0 50px 0 50px;
+    outline: 3px solid black;
+    border-radius: 5px;
+}
+
+.img-container h2 {
+    padding: 30px;
+    font-family: "Shantell Sans", sans-serif;
+}
